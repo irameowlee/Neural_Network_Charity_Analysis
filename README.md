@@ -9,7 +9,7 @@ We use python tensorflow library and created a binary classifier that is capable
 ## Results
 
 ### Data Preprocessing
-![](/Users/iralee/Module_19/Neural_Network_Charity_Analysis/Resources/df.png)
+![](/Resources/df.png)
 
 - What variable(s) are considered the target(s) for your model? : IS_SUCCESFUL column
 - What variable(s) are considered to be the features for your model? : APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
@@ -24,6 +24,6 @@ We use python tensorflow library and created a binary classifier that is capable
 : Dropping more or fewer columns, added more neurons to a hidden layer, Added more hidden layers, used different activation functions for the hidden layers, changed number of epochs to the training regimen.
 
 ## Summary 
-![](/Users/iralee/Module_19/Neural_Network_Charity_Analysis/Resources/optimized.png)
+![](/Resources/optimized.png)
 I was able to increase the accuracy score from 57% to 70% by increasing the epochs to the training regimen.
 Dropping more columns and adding more hidden layers and increasing neurons did not improve the accuracy of the model. Although we were not able to reach the target predictive accuracy, gaining more relevant data for the model would achieve higher accuracy. 
